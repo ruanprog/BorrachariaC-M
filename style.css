@@ -1,0 +1,30 @@
+
+  .slides img {
+    max-height: 150px;
+  }
+  
+}
+
+/* Modo escuro */
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+body.dark-mode header, body.dark-mode footer {
+  background-color: #222;
+}
+
+body.dark-mode #theme-toggle i {
+  color: #f0a500;
+}
+
+/* Espaço no footer para evitar que o botão de WhatsApp o sobreponha */
+footer {
+  margin-bottom: 60px;
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 30px;
+  font-size: 0.9rem; /* Um pouco menor, mas ainda legível */
+}
